@@ -118,7 +118,7 @@ jobs:
       run: |
         rm -rf ./artifact/
         mkdir -p ./artifact/
-        cp -f openwrt/bin/targets/x86/64/* ./artifact/
+        cp -rf openwrt/bin/targets/x86/64/* ./artifact/ && rm -rf ./artifact/packages
         ls -Ahl
     - name: Create release
       id: create_release
