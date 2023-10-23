@@ -94,6 +94,7 @@ CONFIG_LUCI_LANG_en=y
 CONFIG_PACKAGE_uhttpd=y
 CONFIG_PACKAGE_uhttpd-mod-ubus=y
 CONFIG_PACKAGE_luci-compat=y
+CONFIG_PACKAGE_luci-app-firewall=y
 
 ### APPLICATION ###
 #   CONFIG_PACKAGE_luci-app-homeproxy=y
